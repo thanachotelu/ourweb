@@ -1,0 +1,55 @@
+/*Navigation bar*/
+/* Style the header */
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Tahoma;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/*font*/
+h1 {
+  font-size: 60px;
+  font-family: Tahoma;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  font-family: Tahoma;
+  text-align: justify;
+
+}
+.pabt{
+  text-align: center;
+}
+/**/
