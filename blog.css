@@ -1,0 +1,120 @@
+/*Navigation bar*/
+/* Style the header */
+body {
+    margin: 0;
+  }
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-left: 400px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Tahoma;
+    border: 1px solid black;
+    border-left-style: none;
+    border-right-style: 1px solid black;
+    border-top-style:none ;
+    border-bottom-style: none ;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+  }
+  
+  .active {
+    background-color: #c0c0c0;
+    
+  }
+  
+  /*font*/
+  h1 {
+    font-size: 50px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .pabt {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  /**/
+  .column {
+    float: left;
+  }
+  
+  /* Left and right column */
+  .column.left {
+    width: 50%;
+  }
+  
+  /* Middle column */
+  .column.right {
+    width: 50%;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .contentmargin {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  
+  .hborder {
+    border: 1px solid black;
+  }
+  
+  .content_footerpage {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .border_footer {
+    border: 1px solid black;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ffffff;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
